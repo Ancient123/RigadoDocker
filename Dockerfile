@@ -7,7 +7,6 @@ RUN apt-get update
 RUN apt-get install -y \
     --no-install-recommends \
     build-essential \
-    checkinstall \
     cmake \
     curl \
     gcc-arm-none-eabi \
