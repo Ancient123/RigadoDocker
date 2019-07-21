@@ -6,6 +6,6 @@ mv -v /nRF5_SDK* /sdk
 rm sdk.zip
 
 echo """GNU_INSTALL_ROOT := /usr/bin/
-GNU_VERSION := 6.3.1
+GNU_VERSION := 8.3.0
 GNU_PREFIX := arm-none-eabi
 """ > /sdk/components/toolchain/gcc/Makefile.posix
