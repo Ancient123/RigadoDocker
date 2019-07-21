@@ -10,7 +10,9 @@ RUN apt-get install -y \
     cmake \
     curl \
     gcc-arm-none-eabi \
+    git \
     libnewlib-arm-none-eabi \
+    libstdc++-arm-none-eabi-newlib \
     unzip \
     && rm -rf /var/lib/apt/lists/*
 
